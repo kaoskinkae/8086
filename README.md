@@ -27,7 +27,7 @@ ${\color{red}"Signal Processing Controller"
 
 **"device_type",**
 
-${\color{red}""Signal Processing Controller"
+${\color{red}"Signal Processing Controller
 ",}$
 
 -------------------------------------------------------------------
