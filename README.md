@@ -4,7 +4,7 @@ We can customize the values ​​not present in Ioreg named 8086 with names tha
 ![Captura de pantalla 2025-04-24 a las 14 41 34](https://github.com/user-attachments/assets/6a5cf0a1-9698-4de1-a928-5d2a01e6cc09)
 
 
-EXAMPLE
+## EXAMPLE
 
 ![Captura de pantalla 2025-04-24 a las 14 54 14](https://github.com/user-attachments/assets/c4da1206-7479-45d8-a35a-0a61e9165bc3)
 
@@ -50,13 +50,13 @@ SSDT-8086.aml we can create a complete with all the values ​​not present in 
 ![Captura de pantalla 2025-04-24 a las 17 22 57](https://github.com/user-attachments/assets/ecd798c1-fdb0-4f6c-bf11-daa5233442df)
 
 
-Hackintool pcidevices.dsl Name (_ADR, 0x00120000)  // _ADR: Address
+## Hackintool pcidevices.dsl Name (_ADR, 0x00120000)  // _ADR: Address
 
 ![Captura de pantalla 2025-04-24 a las 17 23 04](https://github.com/user-attachments/assets/d520b978-2a8f-4d1c-be57-e2e957b577ba)
 
 
  
-Activate the new name present in the SSDT “THTC”
+## Activate the new name present in the SSDT “THTC”
 
 
 
