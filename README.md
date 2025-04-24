@@ -11,19 +11,19 @@ We can customize the values ​​not present in Ioreg named 8086 with names tha
 
 In the SSDT, we have the Device that we want to use, for example THTC, then we assign
 
-"AAPL,slot-name",
+*"AAPL,slot-name",*
 
 Internal@0,18,0",
 
-"model",
+*"model",*
 
 "Intel Corporation, Series Chipset PCH Thermal Controller"
 
-"name",
+*"name",*
 
 "Signal Processing Controller"
 
-"device_type",
+*"device_type",*
 
 "Signal Processing Controller"
 
