@@ -47,33 +47,14 @@ The values ​​can be extracted from PCIe Hackintool and also from OCC in Devi
 
 SSDT-8086.aml we can create a complete with all the values ​​not present in our Mac
 
-Name (_ADR, 0x00120000)  // _ADR: Address
-Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
-        {
-            If ((Arg2 == Zero))
+![Captura de pantalla 2025-04-24 a las 17 22 57](https://github.com/user-attachments/assets/ecd798c1-fdb0-4f6c-bf11-daa5233442df)
 
-            {
-                Return (Buffer (One)
-                {
-                     0x03                                             // .
-                })
-            }
 
 Hackintool pcidevices.dsl Name (_ADR, 0x00120000)  // _ADR: Address
 
+![Captura de pantalla 2025-04-24 a las 17 23 04](https://github.com/user-attachments/assets/d520b978-2a8f-4d1c-be57-e2e957b577ba)
 
-Method (_STA, 0, NotSerialized)  // _STA: Status
-        {
-            If (_OSI ("Darwin"))
-            {
-                Return (0x0F)
-            }
-            Else
-            {
-                Return (Zero)
-            }
-        }
-    }
+
  
 Activate the new name present in the SSDT “THTC”
 
