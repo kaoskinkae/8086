@@ -13,7 +13,7 @@ In the SSDT, we have the Device that we want to use, for example THTC, then we a
 
 "AAPL,slot-name",
 
-#bd2c00	 Internal@0,18,0",
+Internal@0,18,0",
 
 "model",
 
