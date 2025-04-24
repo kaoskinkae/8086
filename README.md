@@ -29,7 +29,6 @@ ${\color{red}"Signal Processing Controller"
 
 ${\color{red}""Signal Processing Controller"
 ",}$
-"Signal Processing Controller"
 
 -------------------------------------------------------------------
 
