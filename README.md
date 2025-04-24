@@ -51,6 +51,7 @@ Name (_ADR, 0x00120000)  // _ADR: Address
 Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
         {
             If ((Arg2 == Zero))
+
             {
                 Return (Buffer (One)
                 {
