@@ -6,6 +6,9 @@ We can customize the values ​​not present in Ioreg named 8086 with names tha
 
 EXAMPLE
 
+![Captura de pantalla 2025-04-24 a las 14 54 14](https://github.com/user-attachments/assets/c4da1206-7479-45d8-a35a-0a61e9165bc3)
+
+
 In the SSDT, we have the Device that we want to use, for example THTC, then we assign
 
 "AAPL,slot-name",
