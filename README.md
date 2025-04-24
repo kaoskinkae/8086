@@ -12,18 +12,36 @@ EXAMPLE
 In the SSDT, we have the Device that we want to use, for example THTC, then we assign
 
 "AAPL,slot-name",
+
 "Internal@0,18,0",
+
 "model",
+
 "Intel Corporation, Series Chipset PCH Thermal Controller"
+
 "name",
-"Signal Processing Controller"
-"device_type",
+
 "Signal Processing Controller"
 
+"device_type",
+
+"Signal Processing Controller"
+
+
 pci8086,a379
+
 Internal@0,31,0
+
 PciRoot(0x0)/Pci(0x12,0x0)
+
 THTC
+
+![Captura de pantalla 2025-04-24 a las 15 09 43](https://github.com/user-attachments/assets/c8f5c3d0-bffc-47c1-b4a8-c971fe6e1890)
+
+![Captura de pantalla 2025-04-24 a las 15 13 41](https://github.com/user-attachments/assets/284aea0d-e1f4-4089-9ad8-1263ae92a07f)
+
+
+
 
 The values ​​can be extracted from PCIe Hackintool and also from OCC in Device Properties
 
