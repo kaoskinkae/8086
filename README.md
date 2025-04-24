@@ -1,4 +1,5 @@
-# Renaming Devices Using SSDT 8086
+# Naming devices not declared in our ACPI SSDT 8086
+
 We can customize the values ​​not present in Ioreg named 8086 with names that are visible to devices not present on a Mac but present on our computer. The process is to create an SSDT named SSDT-8086 with all the devices present on our system but not recognized by a Mac. This is only a customization of the name present and visible in both Hackintool and Ioreg and does not affect the operation of our computer.
 
 ![Captura de pantalla 2025-04-24 a las 14 41 34](https://github.com/user-attachments/assets/6a5cf0a1-9698-4de1-a928-5d2a01e6cc09)
