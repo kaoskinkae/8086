@@ -18,6 +18,7 @@ ${\color{red}Internal@0,18,0",}$
 
 **"model",**
 
+${\color{red}"Intel Corporation, Series Chipset PCH Thermal Controller",}$
 "Intel Corporation, Series Chipset PCH Thermal Controller"
 
 **"name",**
